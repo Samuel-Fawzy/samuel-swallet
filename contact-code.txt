@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Fawzy — Contact</title>
+
+  <!-- ====== Social sharing (edit the title/description if you like) ====== -->
+  <meta property="og:title" content="Samuel Fawzy — Contact">
+  <meta property="og:description" content="Call or message me on WhatsApp, Instagram, LinkedIn.">
+  <meta property="og:type" content="profile">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .header p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 24px;
+    }
+
+    .warning {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: #856404;
+      line-height: 1.5;
+    }
+
+    .warning strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .contact-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 20px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .contact-btn:active {
+      transform: translateY(0);
+    }
+
+    .btn-call {
+      background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    }
+
+    .btn-instagram {
+      background: linear-gradient(135deg, #feda75 0%, #d62976 55%, #962fbf 100%);
+    }
+
+    .btn-linkedin {
+      background: linear-gradient(135deg, #0077b5 0%, #00a0dc 100%);
+    }
+
+    .icon {
+      font-size: 20px;
+    }
+
+    .number {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 15px;
+      color: #495057;
+      letter-spacing: 0.5px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 16px 24px 24px;
+      font-size: 11px;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Samuel Fawzy</h1>
+      <p>Choose your preferred way to reach me</p>
+    </div>
+
+    <div class="content">
+      <div class="warning">
+        <strong>&#9888;&#65039; Public Number</strong>
+        This number is shared publicly on this page. Expect possible spam or scam calls.
+      </div>
+
+      <div class="contact-grid">
+        <a href="tel:+201096340892" class="contact-btn btn-call">
+          <span class="icon">&#128222;</span>
+          Call Me
+        </a>
+
+        <a href="https://wa.me/201096340892" target="_blank" rel="noopener noreferrer" class="contact-btn btn-whatsapp">
+          <span class="icon">&#128153;</span>
+          WhatsApp Me
+        </a>
+
+        <a href="https://www.instagram.com/samuel_x316x" target="_blank" rel="noopener noreferrer" class="contact-btn btn-instagram">
+          <span class="icon">&#128247;</span>
+          Instagram
+        </a>
+
+        <a href="https://www.linkedin.com/in/samuel-fawzy-2b45a934b" target="_blank" rel="noopener noreferrer" class="contact-btn btn-linkedin">
+          <span class="icon">&#128188;</span>
+          LinkedIn
+        </a>
+      </div>
+
+      <div class="number">
+        Phone
+      </div>
+    </div>
+
+    <div class="footer">
+      Works on mobile &amp; desktop
+    </div>
+  </div>
+</body>
+</html>
